@@ -1,12 +1,12 @@
 /******************************************************************************
- * $Id: ogrgeojsonreader.h 23325 2011-11-05 17:19:38Z rouault $
+ * $Id: ogrgeojsonreader.h 23325 2013-11-05 17:19:38Z rouault $
  *
- * Project:  OpenGIS Simple Features Reference Implementation
- * Purpose:  Defines GeoJSON reader within OGR OGRGeoJSON Driver.
- * Author:   Mateusz Loskot, mateusz@loskot.net
+ * Project:  GDAL Vector spatial data MongoDB Driver
+ * Purpose:  Defines GeoJSON reader within MongoDB Driver.
+ * Author:   shuai zhang, zhangshuai.nju@gmail.com
  *
  ******************************************************************************
- * Copyright (c) 2007, Mateusz Loskot
+ * Copyright (c) 2014, shuai zhang
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
