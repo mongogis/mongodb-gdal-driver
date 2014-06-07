@@ -1,12 +1,12 @@
 /******************************************************************************
  * $Id: OGRMongoDriver.cpp 19489 2013-07-08 15:09:05Z rouault $
  *
- * Project:  OpenGIS Simple Features Reference Implementation
+ * Project:  GDAL Vector spatial data MongoDB Driver
  * Purpose:  Implementation of OGRMongoDriver class (OGR MongoDB Driver).
  * Author:   Shuai Zhang, zhangshuai.nju@gmail.com
  *
  ******************************************************************************
- * Copyright (c) 2007, Mateusz Loskot
+ * Copyright (c) 2014, shuai zhang
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
