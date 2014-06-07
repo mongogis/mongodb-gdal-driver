@@ -1,6 +1,6 @@
 # $Id$
 #
-# Makefile to build OGR GeoJSON driver
+# Makefile to build OGR MongoDB driver
 #
 SUBDIRS-yes	:= jsonc
 
