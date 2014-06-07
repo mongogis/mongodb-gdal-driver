@@ -1,12 +1,12 @@
 /******************************************************************************
-* $Id: OGRMongoDataSource.cpp 23367 2011-11-12 22:46:13Z rouault $
+* $Id: OGRMongoDataSource.cpp 23367 2014-01-12 22:46:13Z rouault $
 *
-* Project:  OpenGIS Simple Features Reference Implementation
-* Purpose:  Implementation of OGRMongoDataSource class (OGR GeoJSON Driver).
-* Author:   Mateusz Loskot, mateusz@loskot.net
+* Project:  GDAL Vector spatial data MongoDB Driver
+* Purpose:  Implementation of OGRMongoDataSource class .
+* Author:   Shuai Zhang, zhangshuai.nju@gmail.com
 *
 ******************************************************************************
-* Copyright (c) 2007, Mateusz Loskot
+* Copyright (c) 2014, shuai zhang
 *
 * Permission is hereby granted, free of charge, to any person obtaining a
 * copy of this software and associated documentation files (the "Software"),
