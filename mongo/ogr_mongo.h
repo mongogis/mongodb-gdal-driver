@@ -1,10 +1,10 @@
 /******************************************************************************
  * $Id: ogr_Mongo.h 23367 2013-5-12 22:46:13Z rouault $
  *
- * Project:  OpenGIS Simple Features Reference Implementation
+ * Project:  GDAL Vector spatial data MongoDB Driver
  * Purpose:  Definitions of OGR OGR_Mongo driver types.
  * Author:   Zhang Shuai, from Nanjing University, China
- * Email:	 zhangshuai.nju@gmail.com
+ * Email:    zhangshuai.nju@gmail.com
  *
  ******************************************************************************
  * Copyright (c) 2013, Zhang Shuai
