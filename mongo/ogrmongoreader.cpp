@@ -1,12 +1,12 @@
 /******************************************************************************
- * $Id: OGRMongoReader.cpp 23654 2011-12-29 16:19:38Z rouault $
+ * $Id: OGRMongoReader.cpp 23654 2013-12-29 16:19:38Z rouault $
  *
- * Project:  OpenGIS Simple Features Reference Implementation
- * Purpose:  Implementation of OGRMongoReader class (OGR GeoJSON Driver).
- * Author:   Mateusz Loskot, mateusz@loskot.net
+ * Project:  GDAL Vector spatial data MongoDB Driver
+ * Purpose:  Implementation of OGRMongoReader class.
+ * Author:   shuai zhang, zhangshuai.nju@gmail.com
  *
  ******************************************************************************
- * Copyright (c) 2007, Mateusz Loskot
+ * Copyright (c) 2014, shuai zhang
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
