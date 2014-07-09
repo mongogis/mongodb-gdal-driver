@@ -282,7 +282,7 @@ OGRErr OGRMongoDataSource::Delete(const char* pszName)
 	{
 		mongo::DBClientConnection Conn;
 		std::string	errmsg;
-		Conn.connect( pszConnectionString_ , errmsg ) ;
+		/**Conn.connect( pszConnectionString_ , errmsg ) ;
 
 		for each( std::string a in Conn.getDatabaseNames() )
 		{	
@@ -294,7 +294,7 @@ OGRErr OGRMongoDataSource::Delete(const char* pszName)
 				//Conn.~DBClientConnection();
 				return OGRERR_NONE;
 			} 
-		}
+		}**/
 	} 
 	else
 	{
@@ -329,7 +329,7 @@ int OGRMongoDataSource::Create( const char* pszName, char** papszOptions )
 		mongo::DBClientConnection Conn;
 		Conn.connect( pszConnectionString_ , errmsg ) ;
 
-		for each (string a in Conn.getDatabaseNames())
+		/**for each (string a in Conn.getDatabaseNames())
 		{
 			if (EQUAL(_oDB.c_str(),a.c_str()))
 			{
@@ -342,7 +342,7 @@ int OGRMongoDataSource::Create( const char* pszName, char** papszOptions )
 						return FALSE;
 					}
 			}
-		}
+		}**/
 	}
 	return TRUE;
 }
