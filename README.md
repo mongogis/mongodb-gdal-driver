@@ -119,7 +119,7 @@ use make and make install with options to install GDAL. After that find ogr2ogr 
 ``` bash
 # ./ogr2ogr --formats
 Supported Formats:
--> <strong>"MongoDB" (read/write)</strong>
+-> "MongoDB" (read/write)
 -> "ESRI Shapefile" (read/write)
 -> "MapInfo File" (read/write)
 -> "UK .NTF" (readonly)
