@@ -53,7 +53,7 @@ RegisterOGRMONGO();
 #endif
 ```
 
-## 2.3 Add mongo into `ogrsf_frmts.h
+## 2.3 Add mongo into `ogrsf_frmts.h`
 Edit `ogr/ogrsf_frmts/ogrsf_frmts.h`, add the `RegisterOGRMONGO()` function defined in the `ogrmongodriver.cpp`.
 
 ```c++
