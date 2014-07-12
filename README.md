@@ -4,8 +4,8 @@ We are working to push the mongodb driver into gdal main release. You may find t
 
 Right now the GDAL Driver for MongoDB hasn't been built into GDAL official release (we are working on that). The wiki here is determined to guide you compiling it with GDAL source code, so that you won't have to wait. the whole procedure is conducted in Linux OS.
 
-## 1. Preparations
-### 1.1 Download Source Codes
+# 1. Preparations
+## 1.1 Download Source Codes
 Download MongoDB GDAL Driver from [the MongoGIS github](https://github.com/mongogis/mongodb-gdal-driver), [MongoDB source code](http://www.mongodb.org/downloads), [GDAL source code](http://trac.osgeo.org/gdal/wiki/DownloadSource). 
 
 * mongodb-gdal-driver-master.zip
@@ -14,14 +14,14 @@ Download MongoDB GDAL Driver from [the MongoGIS github](https://github.com/mongo
  
 Note: after MongoDB version 2.6.0, you could not get CXX driver from its source code. See the [cxx-driver in github](https://github.com/mongodb/mongo-cxx-driver).
 
-### 1.2 Unzip Code Files
+## 1.2 Unzip Code Files
 Unzip those zip files, get three folders, mongodb-src-r2.6.3, gdal-1.11.0, mongodb-gdal-driver-master.
 
 ```bash
 unzip *.zip 
 ```
 
-### 1.3 Compile MongoDB C++ Driver
+## 1.3 Compile MongoDB C++ Driver
 GDAL Driver will need the include files and lib from MongoDB,so we have to make it ready for use. Go to mongodb-src-r2.6.3 folder, and run, (you have to prepare the [SCons](http://www.scons.org/) to build MongoDB.
 
 ```bash
