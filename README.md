@@ -1,7 +1,7 @@
 # MongoDB OGR Driver for GDAL Libray
 
 
-We are working to push this OGR driver for MongoDB into gdal main release. You may find the ticket in the [gdal.org](http://trac.osgeo.org/gdal/ticket/5453). The document here is determined to guide you compiling it with GDAL source code, so that you won't have to wait. The whole procedure is conducted in Linux OS.
+Hope this OGR driver for MongoDB be included into gdal main release. You may find the ticket in the [gdal.org](http://trac.osgeo.org/gdal/ticket/5453). The document here is determined to guide you compiling it with GDAL source code, so that you won't have to wait. The whole procedure is conducted in Linux OS.
 
 # 1. Preparations
 ## 1.1 Download Source Codes
